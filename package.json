@@ -1,0 +1,30 @@
+{
+  "name": "xahau-hookcanemit-example",
+  "version": "1.0.0",
+  "description": "An example to play with HookCanEmit on Xahau",
+  "scripts": {
+    "install-hook-no-permission": "node install_hook_forwarder_hookCanEmitNoPermission.js",
+    "install-hook-payment-allowed": "node install_hook_forwarder_hookCanEmitPaymentAllowed.js",
+    "invoke-add-params": "node invoke_add_params_install_hook_forwarder.js",
+    "uninstall-hook": "node uninstall_hook_forwarder.js"
+  },
+  "keywords": [
+    "xahau",
+    "hooks",
+    "hookcanemit",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@transia/xrpl": "^3.0.0",
+    "xrpl-accountlib": "^0.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
